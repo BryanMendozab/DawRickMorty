@@ -1,0 +1,64 @@
+.cont{
+    /* background-color: blue; */
+    display: flex;
+    color: black;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    border: 10px rgb(154, 154, 248) solid  ;
+    grid-column: 1fr;
+    border-radius: 1.5rem;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1.5rem;
+    background-color: rgb(255, 255, 255);
+
+    /* max-width: 60%; */
+}
+.cont:hover{
+    transform: scale(1.02);
+    transition:.1s all;
+}
+.titulocard{
+    color: black;
+
+}
+
+.cont.alive {
+    /* border-color: green; */
+    color: white;
+    border: 10px solid darkgreen;
+}
+
+.cont.dead {
+    /* border-color: red; */
+    /* border: 10px solid red; */
+    color: white;
+    border: 10px solid gray;
+}
+
+.image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+    /* border: 10px black solid; */
+    /* background-color: black; */
+}
+.info{
+    font-size: 1.2rem;
+    color: black;
+}
+
+.name{
+    font-weight: bold;
+    color: rgb(54, 54, 125);
+    padding-bottom: 3rem ;
+    font-size: 2rem;
+}
+.specGen{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    gap: .5rem;
+
+}
+

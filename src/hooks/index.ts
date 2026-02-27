@@ -1,0 +1,1 @@
+export {default as useRm} from './useRm'
