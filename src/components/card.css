@@ -8,11 +8,9 @@
     border: 10px rgb(154, 154, 248) solid  ;
     grid-column: 1fr;
     border-radius: 1.5rem;
-    width: 100%;
     box-sizing: border-box;
     padding: 1.5rem;
     background-color: rgb(255, 255, 255);
-
     /* max-width: 60%; */
 }
 .cont:hover{
@@ -40,9 +38,17 @@
 .image {
     border-radius: 1.5rem;
     overflow: hidden;
+    max-width: 200px;
+    aspect-ratio: 1/1;
     /* border: 10px black solid; */
     /* background-color: black; */
 }
+.image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 .info{
     font-size: 1.2rem;
     color: black;
